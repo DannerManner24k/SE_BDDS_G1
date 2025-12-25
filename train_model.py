@@ -4,7 +4,7 @@ from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.regression import RandomForestRegressor
 from pyspark.ml import Pipeline
 
-print("🧠 Starting Model Training V2 (Smart Time Features)...")
+print("Starting Model Training V2 (Smart Time Features)...")
 
 spark = SparkSession.builder \
     .appName("GoldLayerTraining") \
